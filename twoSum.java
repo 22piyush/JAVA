@@ -13,6 +13,10 @@ public class twoSum {
                 {
                     System.out.println("["+i+","+j+"]");
                 }
+                if(nums[i] + nums[j] == target)
+                {
+                    System.out.println("["+i+","+j+"]");
+                }
             }
         }
     }
